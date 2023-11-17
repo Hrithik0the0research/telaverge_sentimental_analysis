@@ -3,7 +3,9 @@ pyrebase4
 secure-smtplib
 nltk
 requests
-bs4 
+chromedriver_autoinstaller
+seleniumbase
+beautifulsoup4
 selenium
 webdriver-manager
 youtube-comment-downloader
