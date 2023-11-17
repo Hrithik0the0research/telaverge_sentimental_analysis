@@ -5,7 +5,8 @@ def company_reviews(name):
     from selenium.webdriver.common.by import By
     from bs4 import BeautifulSoup
     from time import sleep
-    
+    import chromedriver_autoinstaller
+    chromedriver_autoinstaller.install()
     options = webdriver.ChromeOptions() 
     
     # run browser in headless mode 
